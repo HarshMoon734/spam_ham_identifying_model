@@ -12,7 +12,7 @@ from sklearn.model_selection import train_test_split
 
 from sklearn.linear_model import LogisticRegression
 
-__dirname = r"data_set.csv"
+__dirname = r"test.csv"
 
 df = pd.read_csv(__dirname)
 df = df.dropna().reset_index(drop=True)
